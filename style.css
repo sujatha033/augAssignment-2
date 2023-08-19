@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: 'Times New Roman';
+  }
+  a {
+    text-decoration: none;
+    color: aqua;
+  }
+  #aa{
+    color: aqua;
+  
+  }
+  li {
+    list-style: none;
+  }
+.nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px;
+        position: relative;
+        background-color: black;
+        color: #fff;
+        overflow: hidden;
+      }
+      .menu {
+        display: block;
+        font-size: 18px;
+        justify-content: space-between;
+        color: white;
+      }
+      li {
+        display: inline;
+        float: left;
+      }
+      li a{
+        padding: 14px 16px;
+
+      }
+table{
+    width: 40%;
+    border-collapse: collapse;
+    justify-content: center;
+    overflow: hiden;
+    height: 500px;
+    box-shadow: 10px 10px 8px #888888;
+    }
+    th{
+        height: 70px;
+        text-align: left;
+    }
+    th,td{
+        padding: 15px;
+    }
+.table-1{
+    display: flex;
+    height: 550px;
+    justify-content:center;
+    align-items:center;
+    box-shadow: 30px 30px;
+    border: #888888;
+   }
+   
+.form1{
+ display: flex;
+ justify-content: space-between;
+ padding-top: 30px;
+ height: 500px;
+ box-shadow: 30px 30px;
+flex-direction: column;
+overflow: hidden;
+}  
+input{
+    width: 40%;
+}  
+.formdiv{
+    flex-wrap: wrap;
+    box-shadow: 10px 10px 8px #888888;
+    justify-content: center;
+    height: 500px;
+    align-items: center;
+    border: #888888;
+    padding-top: 50px;
+    overflow: hidden;
+    padding-left: 400px;
+}
+h3{
+    padding-bottom: 10px;
+}
+button{
+    background-color: black;
+    color: white;
+    margin-left: px;
+    margin-top: 10px;
+    width: 40%;
+}
+
+  
+  
+     
